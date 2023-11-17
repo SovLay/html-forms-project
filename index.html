@@ -1,35 +1,34 @@
+
+
 <!DOCTYPE html>
+<html>
 
-<form>
-    <div>
-      <label for="name">Full Name:</label>
-      <input id="name" type="text" name="name" />
-    </div>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Front-end foundations: HTML forms</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
 
-    <div>
-      <label for="email">Email:</label>
-      <input
-        id="location"
-        type="text"
-        name="email"
-        autofocus="on"
-      />
-    </div>
-  </form>
-  <form>
-    <div>
-      <label for="form-message">Your message:</label>
-      <textarea
-        id="form-message"
-        name="message"
-        autofocus="on"
-        required
-        maxlength="200"
-      ></textarea>
-    </div>
-  </form>
+<body>
+  <div style="text-align: center;">
+    <form>
+      <div style="padding: 5px 5px; margin: 10px 10px;">
+        <label for="name">Full Name:</label>
+        <input id="name" type="text" name="name" />
+      </div>
 
-  <form>
-    <button type="submit">Submit</button>
-    
-  </form>
+      <div style="padding: 5px 5px; margin: 10px 10px;">
+        <label for="email">Email:</label>
+        <input id="location" type="text" name="email" autofocus="on" />
+      </div>
+      <div style="padding: 5px 5px; margin: 10px 10px;">
+        <label for="form-message">Your message:</label>
+        <textarea id="form-message" name="message" autofocus="on" required maxlength="200"></textarea>
+      </div>
+      <button style="color: burlywood; background-color: rgb(117, 102, 102);" type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+
+</html>
